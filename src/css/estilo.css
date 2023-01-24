@@ -1,0 +1,112 @@
+* {
+    background-color: #0D1117; 
+    font-family: Michroma;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Michroma;
+
+}
+.cabecalho .logo{
+    width: 35px;
+    
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0;
+}
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    height: 00%;
+    list-style-type: none;
+}
+.cabecalho nav li a {
+    font-weight: bold;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.cabecalho nav li a:hover{
+    background-color: #00bfff;
+}
+.container{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    height:100%;
+    padding: 0px 150px 0px;
+}
+.imagem-titulo{
+    width: 700px;
+    height: 200px;
+    padding: 40px;
+}
+.container .descricao{
+    color: #ffffff;
+    width: 95%;
+    font-size: 18px;
+    margin: 20px 10px;
+    letter-spacing: 1px;
+}
+
+.footer-logo{
+    width: 700px;
+    padding: 0 300px;
+}
+.img-tamanho{
+    width: 500px;
+    height: 350px;
+}
+#grid-container {
+    margin-top: 10px;
+    background-color: #0D1117;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+.grid{
+    display: flex;
+    grid-gap: 50px;
+    max-width: 1200px;
+    margin: 100px;
+    margin-top: 20px;
+    
+
+}
+.grid1 div{
+    background-color: #0D1117;
+    font-family: arial;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.projetos{
+    margin-top: -90px;
+    text-align: center;
+}
+.img-tamanho1{
+    width: 500px;
+    height: 350px;
+}
+#grid-container1 {
+    margin-top: 10px;
+    background-color: #0D1117;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: white;
+}
